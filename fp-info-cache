@@ -1,4 +1,4 @@
-47784696931353743
+47909258795214883
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -47305,6 +47305,426 @@ conn samtec board-to-board socket high-speed
 0
 100
 100
+Connector_Samtec_EdgeRate
+Samtec_ERF8-005-XX.X-DV-L_2x05_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+12
+10
+Connector_Samtec_EdgeRate
+Samtec_ERF8-005-XX.X-DV_2x05_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+10
+10
+Connector_Samtec_EdgeRate
+Samtec_ERF8-010-XX.X-DV-L_2x10_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+22
+20
+Connector_Samtec_EdgeRate
+Samtec_ERF8-010-XX.X-DV_2x10_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+20
+20
+Connector_Samtec_EdgeRate
+Samtec_ERF8-011-XX.X-DV-L_2x11_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+24
+22
+Connector_Samtec_EdgeRate
+Samtec_ERF8-011-XX.X-DV_2x11_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+22
+22
+Connector_Samtec_EdgeRate
+Samtec_ERF8-013-XX.X-DV-L_2x13_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+28
+26
+Connector_Samtec_EdgeRate
+Samtec_ERF8-013-XX.X-DV_2x13_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+26
+26
+Connector_Samtec_EdgeRate
+Samtec_ERF8-020-XX.X-DV-L_2x20_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+42
+40
+Connector_Samtec_EdgeRate
+Samtec_ERF8-020-XX.X-DV_2x20_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+40
+40
+Connector_Samtec_EdgeRate
+Samtec_ERF8-025-XX.X-DV-L_2x25_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+52
+50
+Connector_Samtec_EdgeRate
+Samtec_ERF8-025-XX.X-DV_2x25_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+50
+50
+Connector_Samtec_EdgeRate
+Samtec_ERF8-030-XX.X-DV-L_2x30_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+62
+60
+Connector_Samtec_EdgeRate
+Samtec_ERF8-030-XX.X-DV_2x30_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+60
+60
+Connector_Samtec_EdgeRate
+Samtec_ERF8-035-XX.X-DV-L_2x35_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+72
+70
+Connector_Samtec_EdgeRate
+Samtec_ERF8-035-XX.X-DV_2x35_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+70
+70
+Connector_Samtec_EdgeRate
+Samtec_ERF8-040-XX.X-DV-L_2x40_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+82
+80
+Connector_Samtec_EdgeRate
+Samtec_ERF8-040-XX.X-DV_2x40_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+80
+80
+Connector_Samtec_EdgeRate
+Samtec_ERF8-049-XX.X-DV-L_2x49_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+100
+98
+Connector_Samtec_EdgeRate
+Samtec_ERF8-049-XX.X-DV_2x49_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+98
+98
+Connector_Samtec_EdgeRate
+Samtec_ERF8-050-XX.X-DV-L_2x50_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+102
+100
+Connector_Samtec_EdgeRate
+Samtec_ERF8-050-XX.X-DV_2x50_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+100
+100
+Connector_Samtec_EdgeRate
+Samtec_ERF8-060-XX.X-DV-L_2x60_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+122
+120
+Connector_Samtec_EdgeRate
+Samtec_ERF8-060-XX.X-DV_2x60_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+120
+120
+Connector_Samtec_EdgeRate
+Samtec_ERF8-070-XX.X-DV-L_2x70_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+142
+140
+Connector_Samtec_EdgeRate
+Samtec_ERF8-070-XX.X-DV_2x70_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+140
+140
+Connector_Samtec_EdgeRate
+Samtec_ERF8-075-XX.X-DV-L_2x75_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+152
+150
+Connector_Samtec_EdgeRate
+Samtec_ERF8-075-XX.X-DV_2x75_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+150
+150
+Connector_Samtec_EdgeRate
+Samtec_ERF8-100-XX.X-DV-L_2x100_P0.8mm_Socket_Latch
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+202
+200
+Connector_Samtec_EdgeRate
+Samtec_ERF8-100-XX.X-DV_2x100_P0.8mm_Socket
+0.80 mm Edge Rate Rugged High Speed Socket (source: https://suddendocs.samtec.com/prints/erf8-xxx-xx.x-x-dv-xxxx-tr-footprint.pdf)
+conn samtec edge-rate socket
+0
+200
+200
+Connector_Samtec_EdgeRate
+Samtec_ERM8-005-XX.X-DV-L_2x05_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+12
+10
+Connector_Samtec_EdgeRate
+Samtec_ERM8-005-XX.X-DV_2x05_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+10
+10
+Connector_Samtec_EdgeRate
+Samtec_ERM8-010-XX.X-DV-L_2x10_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+22
+20
+Connector_Samtec_EdgeRate
+Samtec_ERM8-010-XX.X-DV_2x10_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+20
+20
+Connector_Samtec_EdgeRate
+Samtec_ERM8-011-XX.X-DV-L_2x11_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+24
+22
+Connector_Samtec_EdgeRate
+Samtec_ERM8-011-XX.X-DV_2x11_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+22
+22
+Connector_Samtec_EdgeRate
+Samtec_ERM8-013-XX.X-DV-L_2x13_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+28
+26
+Connector_Samtec_EdgeRate
+Samtec_ERM8-013-XX.X-DV_2x13_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+26
+26
+Connector_Samtec_EdgeRate
+Samtec_ERM8-020-XX.X-DV-L_2x20_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+42
+40
+Connector_Samtec_EdgeRate
+Samtec_ERM8-020-XX.X-DV_2x20_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+40
+40
+Connector_Samtec_EdgeRate
+Samtec_ERM8-025-XX.X-DV-L_2x25_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+52
+50
+Connector_Samtec_EdgeRate
+Samtec_ERM8-025-XX.X-DV_2x25_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+50
+50
+Connector_Samtec_EdgeRate
+Samtec_ERM8-030-XX.X-DV-L_2x30_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+62
+60
+Connector_Samtec_EdgeRate
+Samtec_ERM8-030-XX.X-DV_2x30_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+60
+60
+Connector_Samtec_EdgeRate
+Samtec_ERM8-035-XX.X-DV-L_2x35_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+72
+70
+Connector_Samtec_EdgeRate
+Samtec_ERM8-035-XX.X-DV_2x35_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+70
+70
+Connector_Samtec_EdgeRate
+Samtec_ERM8-040-XX.X-DV-L_2x40_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+82
+80
+Connector_Samtec_EdgeRate
+Samtec_ERM8-040-XX.X-DV_2x40_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+80
+80
+Connector_Samtec_EdgeRate
+Samtec_ERM8-049-XX.X-DV-L_2x49_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+100
+98
+Connector_Samtec_EdgeRate
+Samtec_ERM8-049-XX.X-DV_2x49_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+98
+98
+Connector_Samtec_EdgeRate
+Samtec_ERM8-050-XX.X-DV-L_2x50_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+102
+100
+Connector_Samtec_EdgeRate
+Samtec_ERM8-050-XX.X-DV_2x50_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+100
+100
+Connector_Samtec_EdgeRate
+Samtec_ERM8-060-XX.X-DV-L_2x60_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+122
+120
+Connector_Samtec_EdgeRate
+Samtec_ERM8-060-XX.X-DV_2x60_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+120
+120
+Connector_Samtec_EdgeRate
+Samtec_ERM8-070-XX.X-DV-L_2x70_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+142
+140
+Connector_Samtec_EdgeRate
+Samtec_ERM8-070-XX.X-DV_2x70_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+140
+140
+Connector_Samtec_EdgeRate
+Samtec_ERM8-075-XX.X-DV-L_2x75_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+152
+150
+Connector_Samtec_EdgeRate
+Samtec_ERM8-075-XX.X-DV_2x75_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+150
+150
+Connector_Samtec_EdgeRate
+Samtec_ERM8-100-XX.X-DV-L_2x100_P0.8mm_Terminal_Latch
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+202
+200
+Connector_Samtec_EdgeRate
+Samtec_ERM8-100-XX.X-DV_2x100_P0.8mm_Terminal
+0.80 mm Edge Rate Rugged High Speed Terminal (source: https://suddendocs.samtec.com/prints/erm8-xxx-xx.x-dv-xxxx-footprint.pdf)
+conn samtec edge-rate socket
+0
+200
+200
 Connector_Samtec_FSI
 Samtec_FSI-105-03-X-D-AD_2x05_P1.0mm_Socket_AlignmentPin
 Samtec FSI One-Piece Interface, 1.00 mm Pitch, Double Row, Alignment Pin (source: https://suddendocs.samtec.com/prints/fsi-1xx-03-x-d-x-xx-xx-footprint.pdf)
@@ -58114,13 +58534,6 @@ DCDC SMD TRACO TMR-1SM
 7
 7
 Converter_DCDC
-Converter_DCDC_TRACO_TMR-2xxxxWI_THT
-https://www.tracopower.com/products/tmr2wi.pdf
-DCDC-Converter TRACO TMRxxxxWI Single/Dual_output
-0
-7
-7
-Converter_DCDC
 Converter_DCDC_TRACO_TMR2-xxxxWI_THT
 DCDC-Converter, TRACO, TMR2-xxxxWI, 2W, Rev. October 7. 2025, https://www.tracopower.com/products/tmr2wi.pdf, generated with kicad-footprint-generator StandardBox_generator.py
 DCDC-Converter TRACO THT SIP-9 2W TMR2WI
@@ -63182,13 +63595,6 @@ inductor handsolder
 2
 2
 Inductor_SMD
-L_0805_2012Metric_Pad1.15x1.40mm_HandSolder
-Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-inductor handsolder
-0
-2
-2
-Inductor_SMD
 L_01005_0402Metric
 Inductor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator
 inductor
@@ -63226,13 +63632,6 @@ inductor
 Inductor_SMD
 L_1206_3216Metric_Pad1.22x1.90mm_HandSolder
 Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-inductor handsolder
-0
-2
-2
-Inductor_SMD
-L_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor handsolder
 0
 2
@@ -67896,13 +68295,6 @@ Inductor_SMD
 L_Wuerth_WE-TPC-3816
 L_Wuerth_WE-TPC-3816 StepUp generated footprint, http://katalog.we-online.de/pbs/datasheet/7440310047.pdf
 wurth wuerth smd inductor
-0
-2
-2
-Inductor_SMD
-L_Wuerth_WE-XHMI-8080
-Inductor, Wuerth, WE-XHMI 8080, 8.3mmx8.8mm, https://katalog.we-online.de/pbs/datasheet/74439358068.pdf, generated with kicad-footprint-generator StandardBox_generator.py
-Inductor Wuerth WE-XHMI 8080
 0
 2
 2
@@ -161560,13 +161952,6 @@ DFN package size 1006 3 pins
 3
 3
 Package_DFN_QFN
-Diodes_UDFN-10_1.0x2.5mm_P0.5mm
-U-DFN2510-10 package used by Diodes Incorporated (https://www.diodes.com/assets/Package-Files/U-DFN2510-10-Type-CJ.pdf)
-UDFN-10 U-DFN2510-10 Diodes
-0
-10
-10
-Package_DFN_QFN
 Diodes_UDFN-10_1x2.5mm_P0.5mm
 Diodes  UDFN, 10 Pin (https://www.diodes.com/assets/Package-Files/U-DFN2510-10-Type-CJ.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 Diodes UDFN NoLead Diodes_CJ Diodes_U-DFN2510-10
@@ -169511,20 +169896,6 @@ Texas TQFP QFP Texas_PAP-(S-PQFP-G64) Texas_PowerPAD-64-pin-HTQFP
 0
 112
 65
-Package_QFP
-VQFP-128_14x14mm_P0.4mm
-VQFP, 128 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VQFP QFP
-0
-128
-128
-Package_QFP
-VQFP-176_20x20mm_P0.4mm
-VQFP, 176 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VQFP QFP
-0
-176
-176
 Package_SIP
 PowerIntegrations_eSIP-7C
 eSIP-7C Vertical Flat Package with Heatsink Tab, https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
@@ -173425,13 +173796,6 @@ SOT TO_SOT_SMD SC8
 8
 8
 Package_TO_SOT_SMD
-SC-70-8_Handsoldering
-SC70-8, Handsoldering
-SC70-8 Handsoldering
-0
-8
-8
-Package_TO_SOT_SMD
 SC-74-6_1.55x2.9mm_P0.95mm
 SC-74, 6 Pin (https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=39), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SC-74 TO_SOT_SMD
@@ -173656,23 +174020,9 @@ SOT TO_SOT_SMD SC-70 SOT-323
 3
 3
 Package_TO_SOT_SMD
-SOT-323_SC-70_Handsoldering
-SOT-323, SC-70 Handsoldering
-SOT-323 SC-70 Handsoldering
-0
-3
-3
-Package_TO_SOT_SMD
 SOT-343_SC-70-4
 SOT, 4 Pin (https://www.tme.eu/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf#page=9), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD SOT-343 SC-70-4
-0
-4
-4
-Package_TO_SOT_SMD
-SOT-343_SC-70-4_Handsoldering
-SOT-343, SC-70-4, Handsoldering
-SOT-343 SC-70-4 Handsoldering
 0
 4
 4
@@ -173684,23 +174034,9 @@ SOT TO_SOT_SMD SC-88A SOT-353 SC-70-5
 5
 5
 Package_TO_SOT_SMD
-SOT-353_SC-70-5_Handsoldering
-SOT-353, SC-70-5, Handsoldering
-SOT-353 SC-70-5 Handsoldering
-0
-5
-5
-Package_TO_SOT_SMD
 SOT-363_SC-70-6
 SOT, 6 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=170, JEDEC MO-203, variant AB, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD SC-88 SOT-363 SC-70-6 US6 UMT6 S-Mini6 TSSOP6
-0
-6
-6
-Package_TO_SOT_SMD
-SOT-363_SC-70-6_Handsoldering
-SOT-363, SC-70-6, SC-88, Handsoldering
-SOT-363 SC-70-6 SC-88 Handsoldering
 0
 6
 6
@@ -184568,6 +184904,160 @@ THT terminal block Metz Connect Type703_RT10N03HGLU pitch 9.52mm size 28.6x12.5m
 0
 3
 3
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x02_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 2 pins, pitch 9.5mm, size 20.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+2
+2
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x03_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 3 pins, pitch 9.5mm, size 30x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+3
+3
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x04_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 4 pins, pitch 9.5mm, size 39.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+4
+4
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x05_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 5 pins, pitch 9.5mm, size 49x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+5
+5
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x06_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 6 pins, pitch 9.5mm, size 58.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+6
+6
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x07_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 7 pins, pitch 9.5mm, size 68x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+7
+7
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x08_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 8 pins, pitch 9.5mm, size 77.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+8
+8
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x09_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 9 pins, pitch 9.5mm, size 87x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+9
+9
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x10_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 10 pins, pitch 9.5mm, size 96.5x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+10
+10
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x11_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 11 pins, pitch 9.5mm, size 106x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+11
+11
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500M_1x12_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500M, 12 pins, pitch 9.5mm, size 116x16mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500M-9-5-4P_C255007.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+12
+12
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x02_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 2 pins, pitch 9.5mm, size 20.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+2
+2
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x03_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 3 pins, pitch 9.5mm, size 30x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+3
+3
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x04_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 4 pins, pitch 9.5mm, size 39.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+4
+4
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x05_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 5 pins, pitch 9.5mm, size 49x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+5
+5
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x06_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 6 pins, pitch 9.5mm, size 58.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+6
+6
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x07_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 7 pins, pitch 9.5mm, size 68x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+7
+7
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x08_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 8 pins, pitch 9.5mm, size 77.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+8
+8
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x09_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 9 pins, pitch 9.5mm, size 87x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+9
+9
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x10_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 10 pins, pitch 9.5mm, size 96.5x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+10
+10
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x11_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 11 pins, pitch 9.5mm, size 106x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+11
+11
+TerminalBlock_Ningbo-Kagnex
+TerminalBlock_Ningbo-Kagnex_HB9500_1x12_P9.5mm
+Barrier terminal block, Ningbo-Kagnex HB9500, 12 pins, pitch 9.5mm, size 116x17.8mm, drill diameter 2mm, pad size 6.6mm, https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Ningbo-Kangnex-Elec-HB9500-9-5-4P_C72338.pdf, generated with kicad-footprint-generator https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Barrier
+THT
+0
+12
+12
 TerminalBlock_Philmore
 TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal
 Terminal Block Philmore , 2 pins, pitch 5mm, size 10x10.2mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.philmore-datak.com/mc/Page%20197.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Philmore

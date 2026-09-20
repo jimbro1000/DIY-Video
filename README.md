@@ -63,6 +63,33 @@ Only the bitmap and control registers are currently implemented.
 The font generator in initial design iterations will be a simple eprom that
 does not require external addressing
 
+## Roadmap ##
+
+### Stage 1 ###
+
+The initial design stage is to define the hardware and interfaces, the broad
+timing requirements and what modules are dependent. The goal is to achieve
+a design that can be tested in self-contained modules, that together can
+implement a basic bitmap based video generator.
+
+### Stage 2 ###
+
+The initial design will be verified and refined to prove that the modules work.
+No attempt to integrate the modules will be attempted at this stage. Signal
+and power requirements will be added to the design
+
+### Stage 3 ###
+
+Modules will be implemented as independent PCBs to be re-verified. A backplane
+to integrate the modules will be needed with scope to extend the design to 
+include other sub-systems
+
+### Stage 4 ###
+
+This is the first opportunity to integrate the entire set of modules defined.
+To provide a usable display that can be verified the system will also need
+to be integrated with a host computer to drive the video memory content
+
 ## License ##
 
 This project is licensed under CC BY-SA 4.0
