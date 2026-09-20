@@ -1590,6 +1590,27 @@
 		)
 		(uuid "9910c186-abbb-412a-abfe-ef02a16b344a")
 	)
+	(text_box "The BitmapPixelCounter module is effectively a copy of BitmapDataCounter but uses a different enable signal, starting at the first visible pixel of the viewport rather than before that point\n\nPotentially the two modules could be combined using an inverse of the \"load\" signal to trigger the pixel count but is likely to create a more complex solution than just repeating the four ICs here"
+		(exclude_from_sim no)
+		(at 21.59 153.67 0)
+		(size 66.04 36.83)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a23e8392-6efb-4261-9aa9-cab24a1de0ce")
+	)
 	(junction
 		(at 124.46 106.68)
 		(diameter 0)
@@ -1613,12 +1634,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41d93c32-915f-48ca-b50e-ad0d62dc02fb")
-	)
-	(junction
-		(at 218.44 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a1fe0e6-5d86-41dd-a858-af6a916bf25d")
 	)
 	(junction
 		(at 218.44 102.87)
@@ -1669,6 +1684,12 @@
 		(uuid "a391b1dd-ad02-4a63-8d52-0b40f1b0955a")
 	)
 	(junction
+		(at 218.44 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba9ede42-450f-44b6-865f-fef0224f24aa")
+	)
+	(junction
 		(at 124.46 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1679,12 +1700,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1b12960-adb8-4b8f-917c-a3b9851a0954")
-	)
-	(junction
-		(at 124.46 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7063cd2-b33e-4c47-b558-487f8ca1b4c2")
 	)
 	(junction
 		(at 218.44 100.33)
@@ -1772,23 +1787,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 100.33) (xy 218.44 100.33)
+			(xy 214.63 95.25) (xy 218.44 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1510155b-eae8-4ccf-9b9e-c8c45730b0a2")
-	)
-	(wire
-		(pts
-			(xy 210.82 95.25) (xy 218.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265130f5-f779-4dbc-83ab-7e83482510e8")
 	)
 	(wire
 		(pts
@@ -1849,6 +1854,16 @@
 			(type default)
 		)
 		(uuid "51381f93-9f68-41b7-9f04-909d8520df9a")
+	)
+	(wire
+		(pts
+			(xy 214.63 113.03) (xy 218.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c7bb0d-b527-43d6-a716-da0b7c19631c")
 	)
 	(bus
 		(pts
@@ -1972,16 +1987,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 109.22) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b749893f-a3da-44e8-ae71-2e15b1020572")
-	)
-	(wire
-		(pts
 			(xy 124.46 101.6) (xy 124.46 104.14)
 		)
 		(stroke
@@ -2042,16 +2047,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 107.95) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2645583-f2a6-43bd-befe-4b69d022f3af")
-	)
-	(wire
-		(pts
 			(xy 166.37 82.55) (xy 170.18 82.55)
 		)
 		(stroke
@@ -2059,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "c26d3b7c-2870-426b-b499-3153b8bc66ac")
+	)
+	(wire
+		(pts
+			(xy 218.44 95.25) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbad43d-3183-48f1-8a3e-42e08b133173")
 	)
 	(wire
 		(pts
@@ -2079,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "e175071e-0c52-4d48-a44a-ab51ad40f072")
+	)
+	(wire
+		(pts
+			(xy 120.65 114.3) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb08c4d-452f-4fa7-baba-e65d5cc6cf61")
 	)
 	(wire
 		(pts
@@ -2229,16 +2244,6 @@
 			(justify left bottom)
 		)
 		(uuid "47d36bbe-a4ef-439d-8262-da39c20f1e5b")
-	)
-	(label "CountEnable"
-		(at 124.46 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d147fa5-71ab-434e-a5b0-812c05adbb65")
 	)
 	(label "BPP0"
 		(at 218.44 118.11 180)
@@ -2428,6 +2433,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{HCountEnable}"
+		(shape input)
+		(at 124.46 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cf90368-42c4-418d-ada8-6323fb2f164b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.3518 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3532,17 +3559,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 214.63 100.33 0)
+		(lib_id "power:+5V")
+		(at 214.63 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b740dfe6-9b65-4093-b5b4-4c55810291ac")
-		(property "Reference" "#PWR084"
-			(at 214.63 106.68 0)
+		(uuid "9b85382a-3486-4b62-8e63-c5bf451675c8")
+		(property "Reference" "#PWR071"
+			(at 214.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,8 +3577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 214.63 105.41 0)
+		(property "Value" "+5V"
+			(at 214.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 100.33 0)
+			(at 214.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3595,73 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bfa25cb-24c5-4faa-9468-182e8b2335a6")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/935d5772-4398-4369-8a3a-93d8947ae994"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b740dfe6-9b65-4093-b5b4-4c55810291ac")
+		(property "Reference" "#PWR084"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
 			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3670,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 100.33 0)
+			(at 214.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,72 +3685,6 @@
 			(project "DIY-Video"
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/935d5772-4398-4369-8a3a-93d8947ae994"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cef41e7f-132d-4bf2-8b33-c1b4815ac5f2")
-		(property "Reference" "#PWR083"
-			(at 210.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 210.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aaff522d-9127-48b1-95cf-7c443773bfe5")
-		)
-		(instances
-			(project "DIY-Video"
-				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/935d5772-4398-4369-8a3a-93d8947ae994"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3790,6 +3817,72 @@
 			(project "DIY-Video"
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/935d5772-4398-4369-8a3a-93d8947ae994"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f2b635-3db1-47b9-8fd7-a468125097b5")
+		(property "Reference" "#PWR083"
+			(at 120.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "374f7707-f52e-430d-987a-fe267b729180")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/935d5772-4398-4369-8a3a-93d8947ae994"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)

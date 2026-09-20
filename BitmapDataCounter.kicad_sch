@@ -1590,6 +1590,107 @@
 		)
 		(uuid "62f5a16c-1137-4c9c-aa68-d77fd7dd145e")
 	)
+	(text_box "U21 counts raw clock ticks and acts as a clock divider to reduce the clock by 2, 4, 8 or 16\n\nHLoadEnable is a continuous signal, the duration of which is the width of the viewport"
+		(exclude_from_sim no)
+		(at 76.2 38.1 0)
+		(size 33.02 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "39acc77b-8548-4439-aa9a-420ef49c7073")
+	)
+	(text_box "U23 is the effective counter in this circuit, counting pixels"
+		(exclude_from_sim no)
+		(at 170.18 38.1 0)
+		(size 30.48 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "46750a0f-173c-406d-9337-b9b51f2bd41a")
+	)
+	(text_box "The BitmapDataCounter module defines when the BitmapPixelData module needs to load a fresh byte of data from the bitmap data bus\n\nTo do calculate when to load the module needs to run a separate counter clocked off the same source as the main pixel counter\nThe ViewPort module contains a trigger to start the counter out of phase with the data boundary so the data is correctly loaded in advance. Note this does not trigger the memory access, that requires another trigger event in another phase so that the data bus can be prepared before the load action takes place\n\nThe number of clock ticks per pixel and bits per pixel both impact how frequently the load signal fires. In this simplified design the faster timing options are not used but can be implemented from this design if needed"
+		(exclude_from_sim no)
+		(at 31.75 151.13 0)
+		(size 66.04 36.83)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7fc9cb3a-fcc5-4154-8b17-e127450f7db6")
+	)
+	(text_box "The final stage, U24 selects which pixel count is the effective load pixel data trigger based on the bits per pixel. Note the clock order is reversed as 1 bit per pixel needs more clocks before loading data than 4 bits per pixel"
+		(exclude_from_sim no)
+		(at 217.17 38.1 0)
+		(size 33.02 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a0215fde-458c-4b35-b33d-24d307778a5b")
+	)
+	(text_box "U22 selects the effective clock division based on the clocks per pixel input"
+		(exclude_from_sim no)
+		(at 124.46 38.1 0)
+		(size 29.21 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a201dd1f-b1e8-4f3f-b6d8-b6be389c4370")
+	)
 	(junction
 		(at 172.72 72.39)
 		(diameter 0)
@@ -1613,12 +1714,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "135c3513-d520-49a3-a39c-f95b73803e97")
-	)
-	(junction
-		(at 220.98 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bc5f118-aad7-45ba-bcd6-98b05a9940bc")
 	)
 	(junction
 		(at 71.12 91.44)
@@ -1675,6 +1770,12 @@
 		(uuid "a3e1684d-266d-4cbb-b405-f942e3bb4c4c")
 	)
 	(junction
+		(at 220.98 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5a46def-d8f8-44f2-bc3c-02970873faef")
+	)
+	(junction
 		(at 172.72 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1685,12 +1786,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2aa7da3-85e6-43a0-bae4-d50463f21d4f")
-	)
-	(junction
-		(at 127 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e11071db-920b-4b32-91dc-e11af14c81cd")
 	)
 	(junction
 		(at 220.98 90.17)
@@ -1762,6 +1857,36 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05194d7c-9e66-406f-a27b-da8e4f5901da")
+	)
+	(wire
+		(pts
+			(xy 220.98 85.09) (xy 220.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae2a523-aa6c-4daf-a536-e53fe1248943")
+	)
+	(wire
+		(pts
+			(xy 217.17 102.87) (xy 220.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4d333a-e56d-4508-b4b2-85efb56d1211")
+	)
+	(wire
+		(pts
 			(xy 38.1 85.09) (xy 40.64 85.09)
 		)
 		(stroke
@@ -1822,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 90.17) (xy 220.98 90.17)
+			(xy 217.17 85.09) (xy 220.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 80.01 88.9)
+			(xy 76.2 88.9) (xy 80.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1992,16 +2117,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 127 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7f2243-580a-4f46-b30a-dcea74bf536e")
-	)
-	(wire
-		(pts
 			(xy 123.19 91.44) (xy 127 91.44)
 		)
 		(stroke
@@ -2009,16 +2124,6 @@
 			(type default)
 		)
 		(uuid "b13159bf-eec4-476d-8aaf-a407acda22fc")
-	)
-	(wire
-		(pts
-			(xy 220.98 97.79) (xy 220.98 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b76e4c98-2ac7-4478-a8f3-45f204dd7003")
 	)
 	(wire
 		(pts
@@ -2099,16 +2204,6 @@
 			(type default)
 		)
 		(uuid "ecfeed04-6fc8-4430-8382-b54809b97d9e")
-	)
-	(wire
-		(pts
-			(xy 213.36 85.09) (xy 220.98 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0866b1a-65d0-4702-8a94-f190c69b99da")
 	)
 	(wire
 		(pts
@@ -2380,16 +2475,6 @@
 		)
 		(uuid "be35e8c3-b74e-4e80-86a1-f932c5d587b9")
 	)
-	(label "LoadEnable"
-		(at 127 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cdfa858d-a683-46f6-a647-af96453dfd91")
-	)
 	(label "PT2"
 		(at 198.12 74.93 0)
 		(effects
@@ -2423,6 +2508,28 @@
 		(uuid "510e24e3-a94f-4fd5-8b58-b85301e50f6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.5794 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{HLoadEnable}"
+		(shape input)
+		(at 127 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9d878a3-eecd-4a31-aad6-3071521ae198")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8594 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,16 +2607,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 213.36 85.09 0)
+		(at 217.17 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "072947a5-908b-4f24-862c-6a6e5e7d346a")
-		(property "Reference" "#PWR071"
-			(at 213.36 88.9 0)
+		(uuid "03baa862-b001-45ce-b491-bb51b28d325c")
+		(property "Reference" "#PWR0360"
+			(at 217.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2625,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 213.36 80.01 0)
+			(at 217.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 85.09 0)
+			(at 217.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 85.09 0)
+			(at 217.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 85.09 0)
+			(at 217.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,12 +2660,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0da7c07-5448-4e84-88e5-98ab3328bc49")
+			(uuid "c7e6bd90-8bb7-42ed-886d-0dfc4811ab8c")
 		)
 		(instances
 			(project "DIY-Video"
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
-					(reference "#PWR071")
+					(reference "#PWR0360")
 					(unit 1)
 				)
 			)
@@ -2922,7 +3029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 90.17 0)
+		(at 217.17 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2931,7 +3038,7 @@
 		(fields_autoplaced yes)
 		(uuid "342fcc8c-4485-49df-9c06-51efb91300ec")
 		(property "Reference" "#PWR068"
-			(at 217.17 96.52 0)
+			(at 217.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 95.25 0)
+			(at 217.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 90.17 0)
+			(at 217.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 90.17 0)
+			(at 217.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +3073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 90.17 0)
+			(at 217.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3462,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.66 88.9 0)
+		(at 76.2 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3364,7 +3471,7 @@
 		(fields_autoplaced yes)
 		(uuid "93dacf87-0469-46d5-b173-b5124ccc6d57")
 		(property "Reference" "#PWR059"
-			(at 73.66 92.71 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3480,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 83.82 0)
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 88.9 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 88.9 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 88.9 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,6 +4141,72 @@
 			(project "DIY-Video"
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3e09ad5-9204-4f03-bd94-b4db469407c3")
+		(property "Reference" "#PWR0359"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c9edcd0-2544-4c62-ab04-7cd616164d11")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "#PWR0359")
 					(unit 1)
 				)
 			)
