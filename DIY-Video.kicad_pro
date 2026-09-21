@@ -669,6 +669,10 @@
     [
       "b4a8dfc1-0243-4f05-9d5e-7b1cd7a9c491",
       "ControlRegisters"
+    ],
+    [
+      "f34f9fb0-9ed6-4c30-921f-18e4206d4b55",
+      "DragonInterface"
     ]
   ],
   "text_variables": {}

@@ -9317,6 +9317,48 @@
 		)
 	)
 	(sheet
+		(at 16.51 25.4)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f34f9fb0-9ed6-4c30-921f-18e4206d4b55")
+		(property "Sheetname" "DragonInterface"
+			(at 16.51 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface0.kicad_sch"
+			(at 16.51 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 138.43)
 		(size 45.72 19.05)
 		(exclude_from_sim no)
