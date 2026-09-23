@@ -90,8 +90,15 @@ This is the first opportunity to integrate the entire set of modules defined.
 To provide a usable display that can be verified the system will also need
 to be integrated with a host computer to drive the video memory content
 
+## Test Progress ##
+
+### Simulation ###
+
+* Position Counters (verilog, CRUMB)
+* ViewPort (Verilog)
+* Bitmap Data Counters (Verilog)
+
 ## License ##
 
 This project is licensed under CC BY-SA 4.0
 <https://creativecommons.org/licenses/by-sa/4.0/>
-

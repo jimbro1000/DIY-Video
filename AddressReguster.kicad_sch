@@ -3614,10 +3614,6 @@
 		(uuid "065be236-834e-4a9a-a083-e4660218160f")
 	)
 	(no_connect
-		(at 317.5 139.7)
-		(uuid "06bc7a63-d205-4fca-bfc7-9984e64d2fb2")
-	)
-	(no_connect
 		(at 139.7 101.6)
 		(uuid "0a03241b-210b-432c-9eba-52991e9f442a")
 	)
@@ -8522,110 +8518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 309.88 139.7 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e0775d5-223b-4bef-85f3-cde538af9ac4")
-		(property "Reference" "U103"
-			(at 309.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 309.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 309.88 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 309.88 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1074f2e3-b9d4-4f6c-b48f-0477f2073d1f")
-		)
-		(pin "1"
-			(uuid "76eae06d-2f53-4ace-b5e9-50332d6913c5")
-		)
-		(pin "3"
-			(uuid "62ba4fa7-57a9-4158-a5d8-7470a28ccd1f")
-		)
-		(pin "4"
-			(uuid "c5ab92a8-6e74-4cfc-ad80-10e07dd3ffda")
-		)
-		(pin "9"
-			(uuid "da6bc284-219d-419b-ba24-9cfb8bf9202d")
-		)
-		(pin "5"
-			(uuid "56ab9150-eea3-4bb3-b5cb-1a8480927cf6")
-		)
-		(pin "8"
-			(uuid "7887d006-a0aa-49ff-a6e4-2a2377fe3c42")
-		)
-		(pin "11"
-			(uuid "93ad0ae3-1780-4562-9526-9734dc898bbc")
-		)
-		(pin "6"
-			(uuid "2fbb12f8-0c0b-4838-840b-db1107caa449")
-		)
-		(pin "10"
-			(uuid "40d7734c-0914-4ac1-9d98-429dc51265b4")
-		)
-		(pin "13"
-			(uuid "726c5eed-b195-44b9-ac77-f0b9792288a1")
-		)
-		(pin "12"
-			(uuid "76bf1bfc-9bcd-4bea-96af-c31e9f707b18")
-		)
-		(pin "14"
-			(uuid "f6c3baca-7bb1-4e81-aed8-ac5bd13e2c83")
-		)
-		(pin "7"
-			(uuid "44a8321a-fa5e-4a20-a2ae-6bfbdb86c228")
-		)
-		(instances
-			(project "DIY-Video"
-				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/2dbadac2-cca2-450a-9e58-4b03ae55b963"
-					(reference "U103")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 175.26 0)
 		(unit 1)
@@ -9932,72 +9824,6 @@
 			(project "DIY-Video"
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/2dbadac2-cca2-450a-9e58-4b03ae55b963"
 					(reference "U105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 302.26 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dabf9ced-7e14-441f-9822-8bcb93f7427f")
-		(property "Reference" "#PWR0355"
-			(at 302.26 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 302.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 302.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbaea5f5-8fb8-4be9-9b41-7b4c1c267be8")
-		)
-		(instances
-			(project "DIY-Video"
-				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/2dbadac2-cca2-450a-9e58-4b03ae55b963"
-					(reference "#PWR0355")
 					(unit 1)
 				)
 			)
