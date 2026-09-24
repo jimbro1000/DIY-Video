@@ -4318,6 +4318,26 @@
 		)
 		(uuid "1da8b4a5-e4f6-497d-85ca-a7b05f804e2e")
 	)
+	(text_box "~{ExtAdd} flags when the host is making *any* read or write request\n\nThis is gated against the different device select channels\n~{IntMem} is specifically the bitmap memory"
+		(exclude_from_sim no)
+		(at 35.56 102.87 0)
+		(size 41.91 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "963dbb4c-1abd-43a3-bbca-ca41aa5a9a57")
+	)
 	(text_box "ControlRegisters Module persists configurable settings that can be written to and read from the host\n\nEach register is a pair of latch and tri-state buffer. The routing in-between each provides control signals to the GPU, the buffer allows the values to be read and the latch allows them to be stored\n\nEach register requires an enable signal to select and a read and write control signal.\n\nWhile the address mapping could be contained within the register, it is externalised to provide room to grow while reducing the number of gates required\nA plug-in module for each register already exists within my homebrew 6309 project, this can be reused in a practical build\n\nEach register requires logic to disambiguate the device select signal based on low order address bits\nFor 2 registers just A0 is required, for 4 registers A0 and A1, for 8 registers A0, A1 and A2, etc.\nThe select logic permits up to 16 registers before the 4-input AND gates need swapping out. Introducing a programmable palette will instantly require an additional 16 registers\n\nThe specific use of each register is documented on this sheet separately"
 		(exclude_from_sim no)
 		(at 134.62 153.67 0)
