@@ -5,10 +5,7 @@
 	(uuid "f4bb0962-22e3-415d-ba88-775f4784f916")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx:74LS14"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "74xx:74LS04"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -20,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "74LS14"
+			(property "Value" "74LS04"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -37,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Hex inverter schmitt trigger"
+			(property "Description" "Hex Inverter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +60,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TTL not inverter"
+			(property "ki_keywords" "TTL not inv"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LS14_1_0"
+			(symbol "74LS04_1_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -131,33 +128,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_1_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_2_0"
+			(symbol "74LS04_2_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -207,33 +178,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_2_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_3_0"
+			(symbol "74LS04_3_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -283,33 +228,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_3_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_4_0"
+			(symbol "74LS04_4_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -359,33 +278,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_4_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_5_0"
+			(symbol "74LS04_5_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -435,33 +328,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_5_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_6_0"
+			(symbol "74LS04_6_0"
 				(polyline
 					(pts
 						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
@@ -511,33 +378,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_6_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LS14_7_0"
+			(symbol "74LS04_7_0"
 				(pin power_in line
 					(at 0 12.7 270)
 					(length 5.08)
@@ -575,7 +416,7 @@
 					)
 				)
 			)
-			(symbol "74LS14_7_1"
+			(symbol "74LS04_7_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -2850,6 +2691,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS04")
+		(at 119.38 161.29 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e076db4-c915-4f7d-aa58-5a26d08a36ba")
+		(property "Reference" "U118"
+			(at 119.38 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 119.38 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de30")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bc9")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141bf")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b136408e")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a30")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c3c")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef19")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5c9")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d7696")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138d5")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc0")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c1969")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f3")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc0793c")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS163")
 		(at 92.71 86.36 0)
 		(unit 1)
@@ -3160,6 +3105,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS04")
+		(at 54.61 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb00b80-2b51-4658-9af9-e56251bcca3b")
+		(property "Reference" "U118"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de31")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bca")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141c0")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b136408f")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a31")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c3d")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef1a")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5ca")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d7697")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138d6")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc1")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c196a")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f4")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc0793d")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 139.7 66.04 0)
 		(unit 1)
@@ -3221,6 +3270,216 @@
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
 					(reference "#PWR062")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 140.97 161.29 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb0f53a-6096-4a6c-a2b3-dfeb9abd831f")
+		(property "Reference" "U118"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de32")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bcb")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141c1")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b1364090")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a32")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c3e")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef1b")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5cb")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d7698")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138d7")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc2")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c196b")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f5")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc0793e")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 204.47 143.51 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65704c6a-a3ad-42db-8a80-97f09ad0af30")
+		(property "Reference" "U118"
+			(at 210.82 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 210.82 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de33")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bcc")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141c2")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b1364091")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a33")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c3f")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef1c")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5cc")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d7699")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138d8")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc3")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c196c")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f6")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc0793f")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 7)
 				)
 			)
 		)
@@ -3292,109 +3551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS14")
-		(at 54.61 91.44 0)
-		(unit 6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bf59f03-82ee-4ea2-8171-499f758ee09c")
-		(property "Reference" "U8"
-			(at 54.61 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS14"
-			(at 54.61 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter schmitt trigger"
-			(at 54.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "5ee92c08-fd75-418c-a4fb-bdf50f946a74")
-		)
-		(pin "12"
-			(uuid "d5ce672f-dddc-4ab5-a4cf-63c3876d3e63")
-		)
-		(pin "10"
-			(uuid "d376bebf-7616-48d5-a08d-4e46b19b5687")
-		)
-		(pin "7"
-			(uuid "5fad6a05-dc6c-4159-9d40-aaca72758c8c")
-		)
-		(pin "14"
-			(uuid "255f13f8-9d21-4e65-b72d-f755a980c043")
-		)
-		(pin "8"
-			(uuid "25883047-a395-4289-b6ad-a73d37f6ca07")
-		)
-		(pin "13"
-			(uuid "3c1b0a01-b86c-418f-9e18-340e8b6aacae")
-		)
-		(pin "2"
-			(uuid "05a6c713-2bf5-40a9-b57e-9659b8ebb142")
-		)
-		(pin "1"
-			(uuid "88630115-f0b5-47c9-a646-4eb56f7d3c4b")
-		)
-		(pin "4"
-			(uuid "0047f437-0d76-41a9-8954-2b0d6b6a92a1")
-		)
-		(pin "3"
-			(uuid "0a058f53-6506-4b64-8b5d-c5dcacdb6d98")
-		)
-		(pin "5"
-			(uuid "bf6abfd3-7c20-4b46-bc62-60197f10a0d7")
-		)
-		(pin "11"
-			(uuid "8f695523-47f4-46d6-95a0-ab585d29422a")
-		)
-		(pin "9"
-			(uuid "ad276baf-37b7-4b13-ad1c-4af93e1037dc")
-		)
-		(instances
-			(project "DIY-Video"
-				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
-					(reference "U8")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 92.71 66.04 0)
 		(unit 1)
@@ -3456,6 +3612,110 @@
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
 					(reference "#PWR061")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 158.75 144.78 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "811dfe41-ca90-48ec-9689-d772763d14af")
+		(property "Reference" "U118"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 158.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de34")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bcd")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141c3")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b1364092")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a34")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c40")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef1d")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5cd")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d769a")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138d9")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc4")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c196d")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f7")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc07940")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 4)
 				)
 			)
 		)
@@ -3903,6 +4163,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS04")
+		(at 139.7 144.78 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d530243d-4b4e-489a-84a1-5bd9982a7ffe")
+		(property "Reference" "U118"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de35")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bce")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141c4")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b1364093")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a35")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c41")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef1e")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5ce")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d769b")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138da")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc5")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c196e")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f8")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc07941")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS253")
 		(at 233.68 90.17 0)
 		(unit 1)
@@ -4076,6 +4440,110 @@
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
 					(reference "#PWR058")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 119.38 144.78 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd39a47-0f49-417a-b220-a988bed66664")
+		(property "Reference" "U118"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20ebd183-85c1-4637-8608-0df7d500de36")
+		)
+		(pin "9"
+			(uuid "c4d17a9d-09ba-4ffa-b362-0ca1ee079bcf")
+		)
+		(pin "1"
+			(uuid "4e5d714f-be01-484f-b9aa-c9e5f65141c5")
+		)
+		(pin "2"
+			(uuid "f750be3e-78b1-4440-a582-6f76b1364094")
+		)
+		(pin "3"
+			(uuid "b726a7a0-7b6a-4e1f-8d3f-034615716a36")
+		)
+		(pin "5"
+			(uuid "b7b4cb9a-8d65-41fa-9604-089f94158c42")
+		)
+		(pin "6"
+			(uuid "dab7ae65-3a7c-40c7-98b4-a6a586bdef1f")
+		)
+		(pin "11"
+			(uuid "df6eeca9-5b50-46d0-b147-399049a1e5cf")
+		)
+		(pin "10"
+			(uuid "59299dae-df4f-4cca-886e-7d67177d769c")
+		)
+		(pin "7"
+			(uuid "5330b6b2-f7af-46c7-8d05-420ec46138db")
+		)
+		(pin "12"
+			(uuid "51323305-812e-480e-8a1a-7c747b33afc6")
+		)
+		(pin "14"
+			(uuid "a1344e22-7533-49b2-b5d1-8201724c196f")
+		)
+		(pin "8"
+			(uuid "91e62516-e65e-45c8-bccc-379dd03b60f9")
+		)
+		(pin "13"
+			(uuid "a0a4d7c1-2840-4cee-b94b-17c00cc07942")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/ea58d469-cf1f-4bb0-82ac-67bd50353b02"
+					(reference "U118")
+					(unit 2)
 				)
 			)
 		)

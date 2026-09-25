@@ -12247,46 +12247,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e141")
+			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e142")
 		)
 		(pin "12"
-			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2c")
+			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2d")
 		)
 		(pin "7"
-			(uuid "64bb1554-fe12-4f35-9703-18b69ab56372")
+			(uuid "64bb1554-fe12-4f35-9703-18b69ab56373")
 		)
 		(pin "14"
-			(uuid "e8eac653-e105-478d-99ab-64543b684656")
+			(uuid "e8eac653-e105-478d-99ab-64543b684657")
 		)
 		(pin "10"
-			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a1")
+			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a2")
 		)
 		(pin "1"
-			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70a8")
+			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70a9")
 		)
 		(pin "6"
-			(uuid "89f32363-7656-4da0-9753-b4e11f3e3469")
+			(uuid "89f32363-7656-4da0-9753-b4e11f3e346a")
 		)
 		(pin "3"
-			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592c")
+			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592d")
 		)
 		(pin "13"
-			(uuid "287014c1-81f4-4548-ae88-99547c2c4a96")
+			(uuid "287014c1-81f4-4548-ae88-99547c2c4a97")
 		)
 		(pin "4"
-			(uuid "60efe10e-ad40-449e-b3df-75274183990c")
+			(uuid "60efe10e-ad40-449e-b3df-75274183990d")
 		)
 		(pin "2"
-			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d4")
+			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d5")
 		)
 		(pin "5"
-			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a6f")
+			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a70")
 		)
 		(pin "11"
-			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b0f")
+			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b10")
 		)
 		(pin "8"
-			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6c")
+			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6d")
 		)
 		(instances
 			(project "DIY-Video"
@@ -14617,46 +14617,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e141")
+			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e143")
 		)
 		(pin "12"
-			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2c")
+			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2e")
 		)
 		(pin "7"
-			(uuid "64bb1554-fe12-4f35-9703-18b69ab56372")
+			(uuid "64bb1554-fe12-4f35-9703-18b69ab56374")
 		)
 		(pin "14"
-			(uuid "e8eac653-e105-478d-99ab-64543b684656")
+			(uuid "e8eac653-e105-478d-99ab-64543b684658")
 		)
 		(pin "10"
-			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a1")
+			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a3")
 		)
 		(pin "1"
-			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70a8")
+			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70aa")
 		)
 		(pin "6"
-			(uuid "89f32363-7656-4da0-9753-b4e11f3e3469")
+			(uuid "89f32363-7656-4da0-9753-b4e11f3e346b")
 		)
 		(pin "3"
-			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592c")
+			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592e")
 		)
 		(pin "13"
-			(uuid "287014c1-81f4-4548-ae88-99547c2c4a96")
+			(uuid "287014c1-81f4-4548-ae88-99547c2c4a98")
 		)
 		(pin "4"
-			(uuid "60efe10e-ad40-449e-b3df-75274183990c")
+			(uuid "60efe10e-ad40-449e-b3df-75274183990e")
 		)
 		(pin "2"
-			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d4")
+			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d6")
 		)
 		(pin "5"
-			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a6f")
+			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a71")
 		)
 		(pin "11"
-			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b0f")
+			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b11")
 		)
 		(pin "8"
-			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6c")
+			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6e")
 		)
 		(instances
 			(project "DIY-Video"
@@ -15777,46 +15777,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e141")
+			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e144")
 		)
 		(pin "12"
-			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2c")
+			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2f")
 		)
 		(pin "7"
-			(uuid "64bb1554-fe12-4f35-9703-18b69ab56372")
+			(uuid "64bb1554-fe12-4f35-9703-18b69ab56375")
 		)
 		(pin "14"
-			(uuid "e8eac653-e105-478d-99ab-64543b684656")
+			(uuid "e8eac653-e105-478d-99ab-64543b684659")
 		)
 		(pin "10"
-			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a1")
+			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a4")
 		)
 		(pin "1"
-			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70a8")
+			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70ab")
 		)
 		(pin "6"
-			(uuid "89f32363-7656-4da0-9753-b4e11f3e3469")
+			(uuid "89f32363-7656-4da0-9753-b4e11f3e346c")
 		)
 		(pin "3"
-			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592c")
+			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592f")
 		)
 		(pin "13"
-			(uuid "287014c1-81f4-4548-ae88-99547c2c4a96")
+			(uuid "287014c1-81f4-4548-ae88-99547c2c4a99")
 		)
 		(pin "4"
-			(uuid "60efe10e-ad40-449e-b3df-75274183990c")
+			(uuid "60efe10e-ad40-449e-b3df-75274183990f")
 		)
 		(pin "2"
-			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d4")
+			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d7")
 		)
 		(pin "5"
-			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a6f")
+			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a72")
 		)
 		(pin "11"
-			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b0f")
+			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b12")
 		)
 		(pin "8"
-			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6c")
+			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6f")
 		)
 		(instances
 			(project "DIY-Video"
@@ -16982,6 +16982,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS08")
+		(at 307.34 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9553194-60e1-4cb0-a26d-e53e961bf057")
+		(property "Reference" "U90"
+			(at 307.3317 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS08"
+			(at 307.3317 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad And2"
+			(at 307.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5fa6876e-6285-4014-91c2-86bf4215c33e")
+		)
+		(pin "4"
+			(uuid "da9d8525-8a68-4f15-a7a9-6aa7f7283856")
+		)
+		(pin "5"
+			(uuid "43780664-72c4-4fbd-920f-2b6c00103d91")
+		)
+		(pin "3"
+			(uuid "4a15db63-b96c-4064-b599-02a04176edef")
+		)
+		(pin "10"
+			(uuid "2d2c9455-5ed1-4c1a-b624-8ca6eb43f61d")
+		)
+		(pin "1"
+			(uuid "489291c7-6d83-4e93-921c-d2bf70c2b18d")
+		)
+		(pin "6"
+			(uuid "2a948485-fe04-45c9-8915-5803ad631600")
+		)
+		(pin "2"
+			(uuid "8fb4275c-2672-4db7-bd99-df0d4b96fd8b")
+		)
+		(pin "9"
+			(uuid "f3c61a60-c678-41bb-af55-ed27a69a8e64")
+		)
+		(pin "11"
+			(uuid "ed2f76aa-9403-49c7-b496-0542a19884f0")
+		)
+		(pin "14"
+			(uuid "543badf7-4eaf-42af-a831-c45f9c231695")
+		)
+		(pin "12"
+			(uuid "d1c06592-c43e-429f-a323-26c0fd97b4ad")
+		)
+		(pin "13"
+			(uuid "8a550daf-418f-4095-bac9-6bde2f5ceaf8")
+		)
+		(pin "7"
+			(uuid "54346256-019a-400b-a538-efbc7f51c589")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/f34f9fb0-9ed6-4c30-921f-18e4206d4b55"
+					(reference "U90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 59.69 0)
 		(unit 1)
@@ -17405,46 +17509,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e141")
+			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e145")
 		)
 		(pin "12"
-			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2c")
+			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd30")
 		)
 		(pin "7"
-			(uuid "64bb1554-fe12-4f35-9703-18b69ab56372")
+			(uuid "64bb1554-fe12-4f35-9703-18b69ab56376")
 		)
 		(pin "14"
-			(uuid "e8eac653-e105-478d-99ab-64543b684656")
+			(uuid "e8eac653-e105-478d-99ab-64543b68465a")
 		)
 		(pin "10"
-			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a1")
+			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a5")
 		)
 		(pin "1"
-			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70a8")
+			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70ac")
 		)
 		(pin "6"
-			(uuid "89f32363-7656-4da0-9753-b4e11f3e3469")
+			(uuid "89f32363-7656-4da0-9753-b4e11f3e346d")
 		)
 		(pin "3"
-			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592c")
+			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d5930")
 		)
 		(pin "13"
-			(uuid "287014c1-81f4-4548-ae88-99547c2c4a96")
+			(uuid "287014c1-81f4-4548-ae88-99547c2c4a9a")
 		)
 		(pin "4"
-			(uuid "60efe10e-ad40-449e-b3df-75274183990c")
+			(uuid "60efe10e-ad40-449e-b3df-752741839910")
 		)
 		(pin "2"
-			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d4")
+			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d8")
 		)
 		(pin "5"
-			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a6f")
+			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a73")
 		)
 		(pin "11"
-			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b0f")
+			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b13")
 		)
 		(pin "8"
-			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6c")
+			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c70")
 		)
 		(instances
 			(project "DIY-Video"
