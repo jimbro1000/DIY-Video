@@ -9295,46 +9295,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c122860-e30e-4b15-bb27-3ca78c2b21f4")
+			(uuid "6c122860-e30e-4b15-bb27-3ca78c2b21f5")
 		)
 		(pin "3"
-			(uuid "58db9127-085f-4a39-a6c1-499cde29e12b")
+			(uuid "58db9127-085f-4a39-a6c1-499cde29e12c")
 		)
 		(pin "1"
-			(uuid "60d16979-2e44-40bc-bfac-96ed68fa1cbe")
+			(uuid "60d16979-2e44-40bc-bfac-96ed68fa1cbf")
 		)
 		(pin "11"
-			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c6")
+			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c7")
 		)
 		(pin "10"
-			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e31")
+			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e32")
 		)
 		(pin "5"
-			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde5")
+			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde6")
 		)
 		(pin "6"
-			(uuid "d0076145-69b2-436f-97d9-57a857eb58f0")
+			(uuid "d0076145-69b2-436f-97d9-57a857eb58f1")
 		)
 		(pin "4"
-			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc70")
+			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc71")
 		)
 		(pin "9"
-			(uuid "e456270e-cbb2-4f32-981e-932add5f9fae")
+			(uuid "e456270e-cbb2-4f32-981e-932add5f9faf")
 		)
 		(pin "8"
-			(uuid "7614f166-a9da-4dd9-929c-33f8398593ac")
+			(uuid "7614f166-a9da-4dd9-929c-33f8398593ad")
 		)
 		(pin "12"
-			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccc")
+			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccd")
 		)
 		(pin "13"
-			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d92")
+			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d93")
 		)
 		(pin "14"
-			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7c")
+			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7d")
 		)
 		(pin "7"
-			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b4e")
+			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b4f")
 		)
 		(instances
 			(project "DIY-Video"
@@ -9783,6 +9783,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7f14bb-8936-41e4-aa9a-c5089109e801")
+		(property "Reference" "#PWR0237"
+			(at 204.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb7061b-2e7c-43a7-93ca-c98022def652")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS20")
 		(at 267.97 31.75 0)
 		(unit 3)
@@ -10146,6 +10212,103 @@
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
 					(reference "#PWR051")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS30")
+		(at 204.47 107.95 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48b21d86-ca70-4277-aaa6-63a5c43dae17")
+		(property "Reference" "U20"
+			(at 210.82 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS30"
+			(at 210.82 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS30"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-input NAND"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50e5f646-48fd-4729-ac6a-a1b70d940bfd")
+		)
+		(pin "3"
+			(uuid "3fad2ab6-14ea-4517-b0a2-a94937586318")
+		)
+		(pin "5"
+			(uuid "fc2522f4-63ae-40f0-9677-7e2f0f46b020")
+		)
+		(pin "4"
+			(uuid "94bcb038-99e6-4121-a204-cfd293ed5412")
+		)
+		(pin "6"
+			(uuid "50ef6a8b-07a4-4023-9755-c09e41839682")
+		)
+		(pin "11"
+			(uuid "1483c09b-2d34-4510-af4c-f3e7c8f3ccf5")
+		)
+		(pin "2"
+			(uuid "4faecbca-afd5-41ba-a9e6-c1db28f04506")
+		)
+		(pin "12"
+			(uuid "47b7508a-27e4-405f-a23a-75c57dd8e2a2")
+		)
+		(pin "8"
+			(uuid "b3695c49-4735-4bac-9e83-1e11bff67892")
+		)
+		(pin "7"
+			(uuid "505799f5-345a-4623-9bb6-e2a7b928bfb6")
+		)
+		(pin "14"
+			(uuid "ce4cb693-9504-481d-9c4f-6a0db2f7257c")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
+					(reference "U20")
+					(unit 2)
 				)
 			)
 		)
@@ -11213,6 +11376,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 204.47 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a01595-e868-46f0-be4e-cb81f07a8202")
+		(property "Reference" "#PWR0236"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f433ccd-b8e1-4017-b882-1ba0720c9dbf")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS00")
 		(at 72.39 100.33 0)
 		(unit 1)
@@ -12182,46 +12411,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c122860-e30e-4b15-bb27-3ca78c2b21f4")
+			(uuid "6c122860-e30e-4b15-bb27-3ca78c2b21f6")
 		)
 		(pin "3"
-			(uuid "58db9127-085f-4a39-a6c1-499cde29e12b")
+			(uuid "58db9127-085f-4a39-a6c1-499cde29e12d")
 		)
 		(pin "1"
-			(uuid "60d16979-2e44-40bc-bfac-96ed68fa1cbe")
+			(uuid "60d16979-2e44-40bc-bfac-96ed68fa1cc0")
 		)
 		(pin "11"
-			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c6")
+			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c8")
 		)
 		(pin "10"
-			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e31")
+			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e33")
 		)
 		(pin "5"
-			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde5")
+			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde7")
 		)
 		(pin "6"
-			(uuid "d0076145-69b2-436f-97d9-57a857eb58f0")
+			(uuid "d0076145-69b2-436f-97d9-57a857eb58f2")
 		)
 		(pin "4"
-			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc70")
+			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc72")
 		)
 		(pin "9"
-			(uuid "e456270e-cbb2-4f32-981e-932add5f9fae")
+			(uuid "e456270e-cbb2-4f32-981e-932add5f9fb0")
 		)
 		(pin "8"
-			(uuid "7614f166-a9da-4dd9-929c-33f8398593ac")
+			(uuid "7614f166-a9da-4dd9-929c-33f8398593ae")
 		)
 		(pin "12"
-			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccc")
+			(uuid "828a66a3-70a9-4320-8dd4-283d8de55cce")
 		)
 		(pin "13"
-			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d92")
+			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d94")
 		)
 		(pin "14"
-			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7c")
+			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7e")
 		)
 		(pin "7"
-			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b4e")
+			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b50")
 		)
 		(instances
 			(project "DIY-Video"
@@ -12389,37 +12618,37 @@
 			(uuid "66ecbf4e-4eb1-470f-bc85-53cde94bd8cb")
 		)
 		(pin "11"
-			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c6")
+			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c9")
 		)
 		(pin "10"
-			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e31")
+			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e34")
 		)
 		(pin "5"
-			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde5")
+			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde8")
 		)
 		(pin "6"
-			(uuid "d0076145-69b2-436f-97d9-57a857eb58f0")
+			(uuid "d0076145-69b2-436f-97d9-57a857eb58f3")
 		)
 		(pin "4"
-			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc70")
+			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc73")
 		)
 		(pin "9"
-			(uuid "e456270e-cbb2-4f32-981e-932add5f9fae")
+			(uuid "e456270e-cbb2-4f32-981e-932add5f9fb1")
 		)
 		(pin "8"
-			(uuid "7614f166-a9da-4dd9-929c-33f8398593ac")
+			(uuid "7614f166-a9da-4dd9-929c-33f8398593af")
 		)
 		(pin "12"
-			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccc")
+			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccf")
 		)
 		(pin "13"
-			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d92")
+			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d95")
 		)
 		(pin "14"
-			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7c")
+			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7f")
 		)
 		(pin "7"
-			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b4e")
+			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b51")
 		)
 		(instances
 			(project "DIY-Video"
@@ -14198,46 +14427,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c122860-e30e-4b15-bb27-3ca78c2b21f4")
+			(uuid "6c122860-e30e-4b15-bb27-3ca78c2b21f7")
 		)
 		(pin "3"
-			(uuid "58db9127-085f-4a39-a6c1-499cde29e12b")
+			(uuid "58db9127-085f-4a39-a6c1-499cde29e12e")
 		)
 		(pin "1"
-			(uuid "60d16979-2e44-40bc-bfac-96ed68fa1cbe")
+			(uuid "60d16979-2e44-40bc-bfac-96ed68fa1cc1")
 		)
 		(pin "11"
-			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c6")
+			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042ca")
 		)
 		(pin "10"
-			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e31")
+			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e35")
 		)
 		(pin "5"
-			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde5")
+			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde9")
 		)
 		(pin "6"
-			(uuid "d0076145-69b2-436f-97d9-57a857eb58f0")
+			(uuid "d0076145-69b2-436f-97d9-57a857eb58f4")
 		)
 		(pin "4"
-			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc70")
+			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc74")
 		)
 		(pin "9"
-			(uuid "e456270e-cbb2-4f32-981e-932add5f9fae")
+			(uuid "e456270e-cbb2-4f32-981e-932add5f9fb2")
 		)
 		(pin "8"
-			(uuid "7614f166-a9da-4dd9-929c-33f8398593ac")
+			(uuid "7614f166-a9da-4dd9-929c-33f8398593b0")
 		)
 		(pin "12"
-			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccc")
+			(uuid "828a66a3-70a9-4320-8dd4-283d8de55cd0")
 		)
 		(pin "13"
-			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d92")
+			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d96")
 		)
 		(pin "14"
-			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7c")
+			(uuid "76f22be2-f38f-4742-aef1-3320378f5e80")
 		)
 		(pin "7"
-			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b4e")
+			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b52")
 		)
 		(instances
 			(project "DIY-Video"
@@ -14618,7 +14847,7 @@
 			(uuid "24ab81d4-ddcc-48e3-9201-4ae516d06cca")
 		)
 		(pin "14"
-			(uuid "6a4626bc-a3b4-448a-8ea0-ae4b65d20be4")
+			(uuid "6a4626bc-a3b4-448a-8ea0-ae4b65d20be5")
 		)
 		(pin "11"
 			(uuid "7d3a4297-835e-49ba-b219-8a38b16bd2b8")
@@ -14645,7 +14874,7 @@
 			(uuid "5d5ae7f2-3271-41ef-b8a2-0c84464ca3a2")
 		)
 		(pin "7"
-			(uuid "c3df77b6-b164-4e15-ba85-0565e59c5558")
+			(uuid "c3df77b6-b164-4e15-ba85-0565e59c5559")
 		)
 		(instances
 			(project "DIY-Video"
