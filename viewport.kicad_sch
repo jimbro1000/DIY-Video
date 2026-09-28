@@ -12581,7 +12581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 341.63 127 0)
 			(effects
 				(font

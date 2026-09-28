@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0603,2,10nF,
+"D1, D2, D3, D4, D5, D6, D7, D8",0603,8,LED_Small_Filled,
+J1,PinHeader_1x10_P1.27mm_Vertical,1,Register0,
+J2,PinHeader_1x10_P1.27mm_Vertical,1,XDBus,
+J3,PinHeader_1x08_P1.27mm_Vertical,1,XDBus,
+"RN1, RN2",R_Array_Concave_4x0402,2,100R,
+U1,SO-20_5.3x12.6mm_P1.27mm,1,74LS374,
+U2,SO-20_5.3x12.6mm_P1.27mm,1,74LS244,

@@ -11422,110 +11422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS08")
-		(at 92.71 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ade476e-e660-4d82-8da9-cd0463ab361b")
-		(property "Reference" "U110"
-			(at 92.7017 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS08"
-			(at 92.7017 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 92.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And2"
-			(at 92.71 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "9c22906d-6b7a-4bb2-8de3-108a0ea0e141")
-		)
-		(pin "12"
-			(uuid "15c5b6b5-b4ec-46d6-b99b-ce5b995efd2c")
-		)
-		(pin "7"
-			(uuid "64bb1554-fe12-4f35-9703-18b69ab56372")
-		)
-		(pin "14"
-			(uuid "e8eac653-e105-478d-99ab-64543b684656")
-		)
-		(pin "10"
-			(uuid "37a0a7b1-b602-4046-87cd-fa288583a4a1")
-		)
-		(pin "1"
-			(uuid "0eb1f618-075d-477a-b538-60bbf9bb70a8")
-		)
-		(pin "6"
-			(uuid "89f32363-7656-4da0-9753-b4e11f3e3469")
-		)
-		(pin "3"
-			(uuid "76ca075c-c8f0-4e52-a4ab-a5389d3d592c")
-		)
-		(pin "13"
-			(uuid "287014c1-81f4-4548-ae88-99547c2c4a96")
-		)
-		(pin "4"
-			(uuid "60efe10e-ad40-449e-b3df-75274183990c")
-		)
-		(pin "2"
-			(uuid "a0731608-43ca-46bc-bcb8-8fbdb4e102d4")
-		)
-		(pin "5"
-			(uuid "978ba31a-9b2c-4f4c-9191-d80b31189a6f")
-		)
-		(pin "11"
-			(uuid "71701092-8edb-4ac7-b32b-7f4ceb142b0f")
-		)
-		(pin "8"
-			(uuid "3ecbbf8d-ded1-4a54-9662-529683e92c6c")
-		)
-		(instances
-			(project "DIY-Video"
-				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/f34f9fb0-9ed6-4c30-921f-18e4206d4b55"
-					(reference "U110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 43.18 74.93 0)
 		(unit 1)
@@ -11617,7 +11513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 307.34 111.76 0)
 			(effects
 				(font
@@ -11927,7 +11823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 172.72 147.32 0)
 			(effects
 				(font
@@ -12115,7 +12011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 49.53 161.29 0)
 			(effects
 				(font
@@ -12219,7 +12115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 328.93 106.68 0)
 			(effects
 				(font
@@ -12899,7 +12795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -13089,7 +12985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 130.81 147.32 0)
 			(effects
 				(font
@@ -13409,7 +13305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 31.75 143.51 0)
 			(effects
 				(font
@@ -13581,7 +13477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 227.33 139.7 0)
 			(effects
 				(font
@@ -13759,7 +13655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -13869,7 +13765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 74.93 142.24 0)
 			(effects
 				(font
@@ -13975,7 +13871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -14099,7 +13995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 269.24 139.7 0)
 			(effects
 				(font
@@ -14203,7 +14099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 328.93 138.43 0)
 			(effects
 				(font
@@ -14373,7 +14269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 307.34 129.54 0)
 			(effects
 				(font
@@ -14483,7 +14379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 31.75 158.75 0)
 			(effects
 				(font
@@ -14589,7 +14485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 248.92 139.7 0)
 			(effects
 				(font
@@ -14693,7 +14589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 328.93 153.67 0)
 			(effects
 				(font
@@ -14863,7 +14759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 31.75 176.53 0)
 			(effects
 				(font
@@ -15165,7 +15061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 31.75 130.81 0)
 			(effects
 				(font
@@ -15299,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 102.87 190.5 0)
 			(effects
 				(font
@@ -15469,7 +15365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 62.23 129.54 0)
 			(effects
 				(font
@@ -15645,7 +15541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 49.53 176.53 0)
 			(effects
 				(font
@@ -15749,7 +15645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 328.93 120.65 0)
 			(effects
 				(font
@@ -15853,7 +15749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 49.53 191.77 0)
 			(effects
 				(font
@@ -16335,7 +16231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Dragon:Edge_2x20_P2.54mm_OvalMP"
+		(property "Footprint" ""
 			(at 29.21 68.58 0)
 			(effects
 				(font
@@ -16517,7 +16413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 129.54 185.42 0)
 			(effects
 				(font
@@ -16623,7 +16519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 269.24 99.06 0)
 			(effects
 				(font
@@ -16793,7 +16689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 151.13 187.96 0)
 			(effects
 				(font
@@ -16897,7 +16793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 307.34 93.98 0)
 			(effects
 				(font
@@ -17377,7 +17273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 248.92 99.06 0)
 			(effects
 				(font
@@ -17457,7 +17353,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 328.93 92.71 0)
+		(at 92.71 134.62 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17466,7 +17362,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e49114-c0c3-4ae8-8c34-83e6aa0cdb5f")
 		(property "Reference" "U117"
-			(at 328.9217 83.82 0)
+			(at 92.7017 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,15 +17370,15 @@
 			)
 		)
 		(property "Value" "74LS08"
-			(at 328.9217 86.36 0)
+			(at 92.7017 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 328.93 92.71 0)
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+			(at 92.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17491,7 +17387,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 328.93 92.71 0)
+			(at 92.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17500,7 +17396,7 @@
 			)
 		)
 		(property "Description" "Quad And2"
-			(at 328.93 92.71 0)
+			(at 92.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17651,7 +17547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 31.75 191.77 0)
 			(effects
 				(font

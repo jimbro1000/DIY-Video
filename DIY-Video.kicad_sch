@@ -4764,7 +4764,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 55.88) (xy 120.65 40.64)
+			(xy 120.65 55.88) (xy 120.65 17.78)
 		)
 		(stroke
 			(width 0)
@@ -4811,16 +4811,6 @@
 			(type default)
 		)
 		(uuid "6a92b821-a229-4a58-8c4d-d5a202f3947b")
-	)
-	(bus
-		(pts
-			(xy 123.19 44.45) (xy 128.27 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6abf5921-bf9a-4ca1-b330-2cb8514cb358")
 	)
 	(wire
 		(pts
@@ -4991,16 +4981,6 @@
 			(type default)
 		)
 		(uuid "90ecf456-b7a3-4d05-ad9d-0366b38bdfae")
-	)
-	(bus
-		(pts
-			(xy 120.65 40.64) (xy 128.27 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a541ca-e810-4abc-ac81-e3888498db00")
 	)
 	(wire
 		(pts
@@ -5304,7 +5284,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 64.77) (xy 123.19 44.45)
+			(xy 123.19 64.77) (xy 123.19 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6120,7 +6100,7 @@
 	)
 	(hierarchical_label "A[0..15]"
 		(shape input)
-		(at 128.27 40.64 0)
+		(at 120.65 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6164,7 +6144,7 @@
 	)
 	(hierarchical_label "XD[0..7]"
 		(shape bidirectional)
-		(at 128.27 44.45 0)
+		(at 123.19 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6534,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 251.46 130.81 0)
 			(effects
 				(font
@@ -7222,6 +7202,48 @@
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678"
 					(reference "J1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 25.4)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25335e3c-1453-492b-87b7-721711cc1bbb")
+		(property "Sheetname" "ControlRegisterBankSelect"
+			(at 125.73 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RegisterBank.kicad_sch"
+			(at 125.73 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678"
+					(page "14")
 				)
 			)
 		)

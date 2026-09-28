@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [],
@@ -133,7 +133,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DIY-Video.kicad_pro",
+    "filename": "DIY-Register.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -563,6 +563,12 @@
         },
         {
           "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -571,24 +577,6 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey",
-          "name": "DigiKey",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser",
-          "name": "Mouser",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Note",
-          "name": "Note",
           "show": false
         }
       ],
@@ -641,60 +629,8 @@
   },
   "sheets": [
     [
-      "6c4ef05c-ecf5-4bee-ae4e-d72f13738678",
+      "5079716b-c385-4eed-90f5-76085cf1e322",
       "Root"
-    ],
-    [
-      "f5684949-2fde-4e5d-bf51-2b5a0ce27e60",
-      "PositionCounters"
-    ],
-    [
-      "4023660c-3ec4-409a-be3a-58018e7d8eb1",
-      "ViewPort"
-    ],
-    [
-      "ea58d469-cf1f-4bb0-82ac-67bd50353b02",
-      "BitmapDataCounter"
-    ],
-    [
-      "935d5772-4398-4369-8a3a-93d8947ae994",
-      "BitmapPixelCounter"
-    ],
-    [
-      "f90ee925-b566-4650-ba2b-e405bc930690",
-      "BitmapPixelData"
-    ],
-    [
-      "32ecab94-64d1-4cdc-8096-e62e0271f1d6",
-      "FrameTiming"
-    ],
-    [
-      "7d1a0479-3511-4068-9ad0-30b49a8c1001",
-      "PaletteGenerator"
-    ],
-    [
-      "f48abd59-1fb5-4faa-b064-9c5daa94c5f0",
-      "PaletteMultiplexer"
-    ],
-    [
-      "ce8d08c6-e5f6-438c-839c-4f7cd22b9f24",
-      "BitmapMemory"
-    ],
-    [
-      "2dbadac2-cca2-450a-9e58-4b03ae55b963",
-      "BitmapAddressRegister"
-    ],
-    [
-      "b4a8dfc1-0243-4f05-9d5e-7b1cd7a9c491",
-      "ControlRegisters"
-    ],
-    [
-      "f34f9fb0-9ed6-4c30-921f-18e4206d4b55",
-      "DragonInterface"
-    ],
-    [
-      "25335e3c-1453-492b-87b7-721711cc1bbb",
-      "ControlRegisterBankSelect"
     ]
   ],
   "text_variables": {}
