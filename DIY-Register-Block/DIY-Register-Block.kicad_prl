@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -60,13 +60,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "DIY-Register.kicad_prl",
+    "filename": "DIY-Register-Block.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -88,9 +86,7 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
       162,
@@ -101,8 +97,6 @@
       91,
       91,
       71,
-      91,
-      91,
       91,
       91
     ],
