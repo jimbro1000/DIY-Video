@@ -718,6 +718,10 @@
     [
       "25335e3c-1453-492b-87b7-721711cc1bbb",
       "ControlRegisterBankSelect"
+    ],
+    [
+      "4d7b6db7-dff3-4c2f-9ce9-15f58ba26927",
+      "RegisterInterface"
     ]
   ],
   "text_variables": {}

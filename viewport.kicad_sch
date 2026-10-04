@@ -11759,6 +11759,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS08")
+		(at 316.23 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4879d3d6-2326-4086-8b2c-e1e7c23df34a")
+		(property "Reference" "U119"
+			(at 316.2217 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS08"
+			(at 316.2217 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+			(at 316.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad And2"
+			(at 316.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9cf9482a-eab2-4647-ae87-4f0ecfd7b406")
+		)
+		(pin "8"
+			(uuid "c914a573-8749-45c3-a2e3-21a3eebba3ea")
+		)
+		(pin "5"
+			(uuid "f3522a7f-f96f-48ad-93fb-ddf19c7bf426")
+		)
+		(pin "2"
+			(uuid "d49395dc-607d-457b-8f8c-9e8801e8ba40")
+		)
+		(pin "4"
+			(uuid "bd539dd7-3544-4a74-99db-4670103f9a36")
+		)
+		(pin "6"
+			(uuid "41e3df16-e997-4887-b0a1-8a6f779926f2")
+		)
+		(pin "1"
+			(uuid "07934d68-10ec-4486-85d3-13ec179a3a46")
+		)
+		(pin "9"
+			(uuid "6e6c7718-215d-40c1-a6a5-c31d79f9bbab")
+		)
+		(pin "10"
+			(uuid "a422eb78-db80-43a8-b23c-c7069e473d36")
+		)
+		(pin "14"
+			(uuid "5c0866e4-8139-4cae-b1e8-1bcb6c3d51aa")
+		)
+		(pin "12"
+			(uuid "c0d80977-7aff-4caf-aff9-804690de7dc4")
+		)
+		(pin "11"
+			(uuid "4ca3e353-27f2-4921-a66f-4fa7baeba45b")
+		)
+		(pin "13"
+			(uuid "f29e0272-e034-457b-98c4-36b3f57a93aa")
+		)
+		(pin "7"
+			(uuid "d3e7e5b8-2809-42b7-a962-15dbe990019b")
+		)
+		(instances
+			(project "DIY-Video"
+				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
+					(reference "U119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS30")
 		(at 204.47 107.95 0)
 		(unit 2)
@@ -14308,110 +14412,6 @@
 			(project "DIY-Video"
 				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
 					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS08")
-		(at 341.63 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87088665-f2d8-48ef-896f-8408e942d3f8")
-		(property "Reference" "U117"
-			(at 341.6217 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS08"
-			(at 341.6217 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And2"
-			(at 341.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab6aa73c-e596-41e3-917d-b7083275a954")
-		)
-		(pin "3"
-			(uuid "87d8da34-6423-4336-aede-9b110aa2428b")
-		)
-		(pin "1"
-			(uuid "66ecbf4e-4eb1-470f-bc85-53cde94bd8cb")
-		)
-		(pin "11"
-			(uuid "9eba0b37-5a80-4a88-b81c-2c5fd76042c9")
-		)
-		(pin "10"
-			(uuid "5d0f8b70-77bd-493a-b2e0-e4bc54af9e34")
-		)
-		(pin "5"
-			(uuid "bee2aa64-dd6c-415e-bac9-22ae48e1cde8")
-		)
-		(pin "6"
-			(uuid "d0076145-69b2-436f-97d9-57a857eb58f3")
-		)
-		(pin "4"
-			(uuid "80b33227-bd3c-4ac8-9ead-da70d1d7bc73")
-		)
-		(pin "9"
-			(uuid "e456270e-cbb2-4f32-981e-932add5f9fb1")
-		)
-		(pin "8"
-			(uuid "7614f166-a9da-4dd9-929c-33f8398593af")
-		)
-		(pin "12"
-			(uuid "828a66a3-70a9-4320-8dd4-283d8de55ccf")
-		)
-		(pin "13"
-			(uuid "24ceb182-e432-4062-b85b-d5632f2a1d95")
-		)
-		(pin "14"
-			(uuid "76f22be2-f38f-4742-aef1-3320378f5e7f")
-		)
-		(pin "7"
-			(uuid "2b240cdd-2121-4aac-bf09-3ec0d9cf6b51")
-		)
-		(instances
-			(project "DIY-Video"
-				(path "/6c4ef05c-ecf5-4bee-ae4e-d72f13738678/4023660c-3ec4-409a-be3a-58018e7d8eb1"
-					(reference "U117")
 					(unit 1)
 				)
 			)
